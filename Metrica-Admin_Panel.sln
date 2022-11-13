@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metrica-Admin_Panel", "Metrica-Admin_Panel\Metrica-Admin_Panel.csproj", "{3D83B064-D543-4C30-8928-A5268F7FDF21}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D83B064-D543-4C30-8928-A5268F7FDF21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D83B064-D543-4C30-8928-A5268F7FDF21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D83B064-D543-4C30-8928-A5268F7FDF21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D83B064-D543-4C30-8928-A5268F7FDF21}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FDAFADB2-8C0C-4FE2-B9AF-3A01C4ED1D08}
+	EndGlobalSection
+EndGlobal
