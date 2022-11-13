@@ -19,9 +19,8 @@
 
     <!-- App favicon -->
     <link rel="shortcut icon" href="~/assets/images/favicon.ico">
-
-
-    <link href="assets/plugins/lightpicker/litepicker.css" rel="stylesheet" type="text/css" />
+    <link href="~/assets/plugins/lightpicker/litepicker.css" rel="stylesheet" type="text/css" />
+    @RenderSection("style",required:false);
     <!-- App css -->
     <link href="~/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="~/assets/css/icons.min.css" rel="stylesheet" type="text/css" />
@@ -1069,17 +1068,7 @@
     </div>
     <!-- end page-wrapper -->
     <!-- Javascript  -->
-    <script src="~/assets/plugins/clipboard/clipboard.min.js"></script>
-    <script src="~/assets/pages/clipboard.init.js"></script>
-    <script src="~/assets/plugins/lightpicker/litepicker.js"></script>
-    <script src="~/assets/plugins/apexcharts/apexcharts.min.js"></script>
-    <script src="~/assets/pages/analytics-index.init.js"></script>
-    <script src="~/assets/pages/hospital-index.init.js"></script>
-    <script src="~/assets/pages/helpdesk-index.init.js"></script>
-    <script src="~/assets/pages/crypto-index.init.js"></script>
-    <script src="~/assets/pages/ecommerce-index.init.js"></script>
-    <script src="~/assets/pages/crm-index.init.js"></script>
-
+    @RenderSection("Js",required:false);
     <!-- App js -->
     <script src="~/assets/js/app.js"></script>
 
