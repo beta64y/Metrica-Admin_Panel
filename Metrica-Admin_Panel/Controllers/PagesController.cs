@@ -43,5 +43,9 @@ namespace Metrica_Admin_Panel.Controllers
         {
             return View();
         }
+        public IActionResult treeview()
+        {
+            return View();
+        }
     }
 }
